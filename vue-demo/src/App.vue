@@ -10,6 +10,8 @@
     <parent2></parent2>
     <h1>05-provide&inject</h1>
     <parent3></parent3>
+    <h1>06-$attrs&$listeners</h1>
+    <parent4></parent4>
   </div>
 </template>
 
@@ -19,6 +21,7 @@ import parent from './components/02-parent/01-parent.vue'
 import parent1 from './components/03-child/01-parent.vue'
 import parent2 from './components/04-ref/01-parent.vue'
 import parent3 from './components/05-provide&inject/01-parent.vue'
+import parent4 from './components/06-attrs&listeners/01-parent.vue'
 
 export default {
   name: 'App',
@@ -27,7 +30,8 @@ export default {
     parent,
     parent1,
     parent2,
-    parent3
+    parent3,
+    parent4
   }
 }
 </script>

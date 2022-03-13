@@ -6,6 +6,10 @@
 - $parent/$children：父组件、子组件
 - $refs：子组件
 - 依赖注入 provide/inject
+- $attrs
+  - 把父组件中非 prop 属性绑定到内部组件
+- $listeners
+  - 把父组件中的 DOM 对象的原生事件绑定到内部组件
 
 ## 快速原型开发
 
