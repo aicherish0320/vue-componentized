@@ -13,6 +13,21 @@
 
 ## 快速原型开发
 
+- VueCLI 中提供了一个插件可以进行原型快速开发
+- 需要先额外安装一个全局的扩展
+  - `npm install -g @vue/cli-service-global`
+- vue serve
+  - vue serve 如果不指定参数默认会在当前目录找一下的入口文件
+    - main.js index.js App.vue app.vue
+  - 可以指定要加载的组件
+    - vue serve ./src/login.vue
+- 安装 ElementUI
+  - 初始化 package.json
+  - npm init -y
+  - 安装 ElementUI
+    - vue add element
+  - 加载 ElementUI，使用 Vue.use() 安装插件
+
 ## 组件开发
 
 ## Storybook
