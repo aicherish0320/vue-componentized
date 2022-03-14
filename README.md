@@ -71,13 +71,35 @@
 ### 两种项目的组织方式
 
 - Multirepo(Multiple Repository)
-  - 没一个项目对应一个项目
+  - 每一个项目对应一个项目
 - Monorepo(Monolithic Repository)
   - 一个项目仓库中管理多个模块/包
 
 ## 基于模板生成包的结构
 
 ## lerna + yarn workspaces
+
+### yarn workspaces
+
+#### 开启 yarn 的工作区
+
+- 项目根目录的 package.json
+
+```js
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+```
+
+#### yarn workspaces 使用
+
+- 给工作区根目录安装开发依赖
+  - `yarn add jest -D -W`
+- 给指定工作区安装依赖
+  - `yarn workspace ac-button add lodash@4`
+- 给所有工作区安装依赖
+  - `yarn install`
 
 ## 组件测试
 
