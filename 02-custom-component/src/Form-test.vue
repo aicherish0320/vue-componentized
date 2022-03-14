@@ -53,14 +53,14 @@ export default {
   },
   methods: {
     login() {
-      // this.$refs.form.validate((valid) => {
-      //   if (valid) {
-      //     alert('success')
-      //   } else {
-      //     alert('failure')
-      //     return false
-      //   }
-      // })
+      this.$refs.form.validate((valid) => {
+        if (valid) {
+          alert('success')
+        } else {
+          alert('failure')
+          return false
+        }
+      })
       console.log('button')
     }
   }

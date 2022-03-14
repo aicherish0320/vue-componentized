@@ -20,6 +20,22 @@ export default {
   methods: {
     handleInput(e) {
       this.$emit('input', e.target.value)
+
+      const findParent = (parent) => {
+        while (parent) {
+          if (parent.$options.name === 'AcFormItem') {
+            break
+          } else {
+            parent = parent.$parent
+          }
+        }
+        return parent
+      }
+
+      const parent = findParent(this.$parent)
+      if (parent) {
+        parent.$emit('validate')
+      }
     }
   }
 }

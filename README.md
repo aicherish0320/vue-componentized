@@ -46,6 +46,11 @@
 - Input
 - Button
 
+#### Input 组件验证
+
+- Input 组件中触发自定义事件 validate
+- FormItem 渲染完毕注册自定义事件 validate
+
 ## Storybook
 
 ## Monorepo
