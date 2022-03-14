@@ -53,6 +53,19 @@
 
 ## Storybook
 
+- 可视化的组件展示平台
+- 在隔离的开发环境中，以交互式的方式展示组件
+- 独立开发组件
+- 支持的框架
+  - React、Vue、Angular
+
+### Storybook 安装
+
+- 自动安装
+  - `npx -p @storybook/cli sb init --type vue`
+  - `yarn add vue`
+  - `vue yarn add vue-loader vue-template-compiler --dev`
+
 ## Monorepo
 
 ### 两种项目的组织方式
