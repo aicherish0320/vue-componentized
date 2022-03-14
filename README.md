@@ -79,6 +79,21 @@
 
 ## lerna + yarn workspaces
 
+### lerna 介绍
+
+- lerna 是一个优化使用 git 和 npm 管理多包仓库的工作流工具
+- 用于管理具有多个包的 JavaScript 项目
+- 它可以一键把代码提交到 git 和 npm 仓库
+
+### 使用
+
+- 全局使用
+  - `yarn global add lerna`
+- 初始化
+  - `lerna init`
+- 发布
+  - `lerna publish`
+
 ### yarn workspaces
 
 #### 开启 yarn 的工作区
