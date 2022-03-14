@@ -55,6 +55,13 @@
 
 ## Monorepo
 
+### 两种项目的组织方式
+
+- Multirepo(Multiple Repository)
+  - 没一个项目对应一个项目
+- Monorepo(Monolithic Repository)
+  - 一个项目仓库中管理多个模块/包
+
 ## 基于模板生成包的结构
 
 ## lerna + yarn workspaces
